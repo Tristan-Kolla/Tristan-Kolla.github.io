@@ -4,8 +4,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Tristan Kolla Webpage">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="stylesheet" href="style.css">
   <title>Tristan Kolla</title>
 
   <style>
@@ -19,7 +17,7 @@
       position: fixed;
       top: 0;
       width: 100%;
-      background-color: #333; /* Dark background for navigation */
+      background-color: #333;
       z-index: 1000;
     }
 
@@ -32,72 +30,25 @@
     nav a {
       margin: 0 15px;
       text-decoration: none;
-      color: #fff; /* White font color for links */
+      color: #fff;
       font-weight: bold;
       transition: color 0.3s ease;
     }
 
     nav a:hover {
-      color: #0077FF; /* Bright blue hover effect */
-    }
-
-    .social-buttons {
-      display: flex;
-      justify-content: space-between;
-      margin: 80px 0 20px; /* Account for fixed nav bar */
-    }
-
-    .social-buttons a {
-      text-decoration: none;
-      color: #fff;
-      padding: 10px;
-      border-radius: 5px;
-      transition: background-color 0.3s ease;
-    }
-
-    .social-buttons a:first-child { /* LinkedIn button */
-      background-color: #0077FF; /* Bright blue for LinkedIn */
-    }
-
-    .social-buttons a.github {
-      background-color: #333;
-    }
-
-    .social-buttons a.cv {
-      background-color: #4CAF50;
-    }
-
-    .social-buttons a.youtube {
-      background-color: #FF0000;
-    }
-
-    .social-buttons a:hover {
-      background-color: #005082;
-    }
-
-    .social-buttons a.github:hover {
-      background-color: #000;
-    }
-
-    .social-buttons a.cv:hover {
-      background-color: #45a049;
-    }
-
-    .social-buttons a.youtube:hover {
-      background-color: #D14836;
+      color: #0077FF;
     }
 
     main {
-      margin-top: 70px; /* Prevent content from overlapping with the fixed nav bar */
+      margin-top: 70px;
       padding: 20px;
-    }
-
-    h1 {
       text-align: center;
     }
 
-    p {
-      text-align: center;
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
     }
   </style>
 </head>
@@ -112,18 +63,14 @@
   </header>
 
   <main>
-    <div class="social-buttons">
-      <a href="https://www.linkedin.com/in/tristan-kolla" target="_blank">LinkedIn</a>
-      <a href="https://github.com/tristan-kolla" target="_blank" class="github">GitHub</a>
-      <a href="https://moccasin-kathlin-20.tiiny.site/" target="_blank" class="cv">CV</a>
-      <a href="https://www.youtube.com/@MrOrangeHam" target="_blank" class="youtube">YouTube</a>
-    </div>
-
     <section>
       <h1>I'm Tristan Kolla!</h1>
       <p>
         I’m a passionate math enthusiast transitioning into the realm of theoretical ecology. I graduated from Concordia University with a BSc in pure and applied mathematics. Currently, I’m pursuing my master’s degree in biology in Dr. Pedersen’s lab. I love exploring the connections between math and biology, and I’m excited to see how these two disciplines can collaborate to reveal new insights about our ecosystems! My research focuses on understanding how variation in dispersal response can stabilize spatially structured food webs. Outside of my studies, you can catch me bird watching or testing out the latest board games!
       </p>
+      <div class="image-container">
+        <img src="images/profile_picture.jpg" alt="Tristan Kolla Profile Picture" width="400">
+      </div>
       <p>
         Feel free to contact me at <a href="mailto:TristanKolla@gmail.com">tristankolla@gmail.com</a> – I'd love to connect!
       </p>

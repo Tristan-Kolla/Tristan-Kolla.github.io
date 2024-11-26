@@ -6,6 +6,62 @@
   <meta name="description" content="Tristan Kolla Webpage">
   <title>Tristan Kolla</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #333;
+      z-index: 1000;
+    }
+
+    header nav {
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #0077FF;
+    }
+
+    main {
+      margin-top: 70px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .image-container {
+      margin: 20px auto;
+      text-align: center;
+    }
+
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .image-caption {
+      font-size: 14px;
+      color: #555;
+      margin-top: 5px;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -24,13 +80,16 @@
         I’m a passionate math enthusiast transitioning into the realm of theoretical ecology. I graduated from Concordia University with a BSc in pure and applied mathematics. Currently, I’m pursuing my master’s degree in biology in Dr. Pedersen’s lab. I love exploring the connections between math and biology, and I’m excited to see how these two disciplines can collaborate to reveal new insights about our ecosystems! My research focuses on understanding how variation in dispersal response can stabilize spatially structured food webs. Outside of my studies, you can catch me bird watching or testing out the latest board games!
       </p>
 
-      <div class="image-container">
-        <img src="profile_picture.jpg" alt="Tristan Kolla" width="400">
-      </div>
-
       <p>
         Feel free to contact me at <a href="mailto:TristanKolla@gmail.com">tristankolla@gmail.com</a> – I'd love to connect!
       </p>
+
+      <div class="image-container">
+        <img src="profile_picture.jpg" alt="Tristan Kolla birding with a red-breasted nuthatch" />
+        <div class="image-caption">
+          Me birding at Daly Point Nature Reserve. That’s a red-breasted nuthatch on my hand—how cool is that?!
+        </div>
+      </div>
     </section>
   </main>
 </body>
